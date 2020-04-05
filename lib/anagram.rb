@@ -10,6 +10,7 @@ class Anagram
   def match(word)
     word.select do |w|
     w.downcase.split("").sort.('') ==   w.downcase.split("").sort.(''
+      end 
     end 
   end
   
