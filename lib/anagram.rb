@@ -8,8 +8,7 @@ class Anagram
   end 
   
   def match(w)
-    w.downcase.split("").sort.join('')
-    words == w
+    w.downcase.split("").sort.('')
   end
   
   
